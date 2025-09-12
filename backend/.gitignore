@@ -36,7 +36,7 @@ temp/
 
 # Git commands to clear cache:
 # Remove all cached files (useful after updating .gitignore)
-# git rm -r --cached .
+# git rm -r -f --cached .
 # Add all files back to staging
 # git add .
 # Commit the changes
