@@ -4,7 +4,7 @@ import dotenv from "dotenv";
 import { GoogleGenAI } from "@google/genai";
 dotenv.config();
 
-const PORT = process.env.POR || 5679 ;
+const PORT = process.env.PORT || 5679 ;
 const app = express();
 app.use(express.json());
 app.use(cors());
