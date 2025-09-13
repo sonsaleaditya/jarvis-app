@@ -1,97 +1,94 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+🛠️ J.A.R.V.I.S – Your Personal AI Assistant
 
-# Getting Started
+JARVIS is a voice-enabled AI assistant built with React Native, designed to answer your queries, speak responses, and provide a sleek, interactive experience.
 
-> **Note**: Make sure you have completed the [Set Up Your Environment](https://reactnative.dev/docs/set-up-your-environment) guide before proceeding.
+✨ Features
 
-## Step 1: Start Metro
+🗣 Voice & Text Interaction – Ask questions by typing or speaking.
 
-First, you will need to run **Metro**, the JavaScript build tool for React Native.
+🎙 Natural Text-to-Speech (TTS) – Hear JARVIS answer with a human-like voice.
 
-To start the Metro dev server, run the following command from the root of your React Native project:
+💡 Interactive UI – Glowing core animation for a futuristic feel.
 
-```sh
-# Using npm
-npm start
+⚡ Fast & Responsive – Optimized for smooth performance on Android devices.
 
-# OR using Yarn
-yarn start
-```
+🔒 Secure & Private – No sensitive information is stored externally.
 
-## Step 2: Build and run your app
+📥 Installation
 
-With Metro running, open a new terminal window/pane from the root of your React Native project, and use one of the following commands to build and run your Android or iOS app:
+Download the latest APK from the Releases
+ page.
 
-### Android
+Enable Install from unknown sources on your Android device.
 
-```sh
-# Using npm
-npm run android
+Install the APK and open the app.
 
-# OR using Yarn
-yarn android
-```
+Start chatting with your personal AI assistant!
 
-### iOS
+💻 Development Setup
 
-For iOS, remember to install CocoaPods dependencies (this only needs to be run on first clone or after updating native deps).
+If you want to run or modify the app locally:
 
-The first time you create a new project, run the Ruby bundler to install CocoaPods itself:
+Clone the repository:
 
-```sh
-bundle install
-```
+git clone https://github.com/yourusername/jarvis.git
+cd jarvis
 
-Then, and every time you update your native dependencies, run:
 
-```sh
-bundle exec pod install
-```
+Install dependencies:
 
-For more information, please visit [CocoaPods Getting Started guide](https://guides.cocoapods.org/using/getting-started.html).
+npm install
 
-```sh
-# Using npm
-npm run ios
 
-# OR using Yarn
-yarn ios
-```
+Run the app on Android device/emulator:
 
-If everything is set up correctly, you should see your new app running in the Android Emulator, iOS Simulator, or your connected device.
+npx react-native run-android
 
-This is one way to run your app — you can also build it directly from Android Studio or Xcode.
 
-## Step 3: Modify your app
+⚠️ Ensure you have Android Studio, SDKs, and a proper React Native environment installed.
 
-Now that you have successfully run the app, let's make changes!
+🌿 Environment Variables
 
-Open `App.tsx` in your text editor of choice and make some changes. When you save, your app will automatically update and reflect these changes — this is powered by [Fast Refresh](https://reactnative.dev/docs/fast-refresh).
+The app uses a .env file for API keys:
 
-When you want to forcefully reload, for example to reset the state of your app, you can perform a full reload:
+GEMINI_API=https://your-api-endpoint.com
 
-- **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Dev Menu**, accessed via <kbd>Ctrl</kbd> + <kbd>M</kbd> (Windows/Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (macOS).
-- **iOS**: Press <kbd>R</kbd> in iOS Simulator.
 
-## Congratulations! :tada:
+Never commit .env to GitHub. It is already included in .gitignore.
 
-You've successfully run and modified your React Native App. :partying_face:
+📦 Build Release APK
 
-### Now what?
+To build the release APK:
 
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [docs](https://reactnative.dev/docs/getting-started).
+cd android
+gradlew assembleRelease
 
-# Troubleshooting
 
-If you're having issues getting the above steps to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+The APK will be generated here:
 
-# Learn More
+android/app/build/outputs/apk/release/app-release.apk
 
-To learn more about React Native, take a look at the following resources:
+🚀 Future Updates
 
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+🗣 Additional voices & languages
+
+🧠 Smarter AI responses
+
+📅 Task integration & reminders
+
+✨ New animations and features
+
+🤝 Contributing
+
+Contributions are welcome!
+
+Fork the repository
+
+Create a feature branch
+
+Submit a pull request
+
+📜 License
+
+MIT License © 2025 Aditya Sonsale
+Email: sonsaleaditya@gmail.com
