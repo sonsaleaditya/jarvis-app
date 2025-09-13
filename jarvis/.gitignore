@@ -1,0 +1,73 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# React Native / Build
+android/app/build/
+android/app/release/
+ios/Pods/
+ios/build/
+*.iml
+*.hprof
+*.orig
+*.rej
+
+# Env files (API keys / secrets)
+.env
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+*.swp
+*.swo
+
+# Mac
+.DS_Store
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Metro / Cache
+.expo/
+.expo-shared/
+*.expo
+.cache/
+tmp/
+
+# Android Studio / Gradle
+.gradle/
+local.properties
+.cxx/
+captures/
+
+# iOS
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output/
+fastlane/metadata/
+
+# Misc
+*.apk
+*.keystore
+#aditya
